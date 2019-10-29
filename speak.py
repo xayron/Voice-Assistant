@@ -1,6 +1,7 @@
 from gtts import gTTS
 import pyglet
-import time, os
+import time
+import os
 
 def tts(text, lang) :
     file = gTTS(text = text, lang = lang)
